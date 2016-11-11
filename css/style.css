@@ -1,0 +1,257 @@
+/*************************
+* =Google Fonts
+*************************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/*************************
+* =Global Styles
+*************************/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+.well {
+	margin: 20px 0;
+}
+/*************************
+* =Typography
+*************************/
+.well .page-header {
+	margin-top: 0;
+}
+.well .page-header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*************************
+* =Header
+*************************/
+#logo {
+	font-family: cursive;
+	font-size: 35px;
+	text-shadow: 1px 1px 5px #999;
+	font-weight: bold;
+	color: #ccc;
+}
+#search_bar {
+	width: 300px;
+}
+.options a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #fff;
+	font-family: sans-serif;
+}
+.options a:hover {
+	text-decoration: underline;
+}
+
+/*************************
+* =Body(index)
+*************************/
+
+/* Carousel */
+#myCarousel {
+	margin-top: 101.2px;
+}
+#myCarousel .item {
+	height: 250px;
+}
+#slide1 {
+	background: url(../img/carousel1_lg.jpg) top center no-repeat;
+}
+#slide2 {
+	background: url(../img/carousel2_lg.jpg) top center no-repeat;
+}
+#slide3 {
+	background: url(../img/carousel3_lg.jpg) top center no-repeat;
+}
+#slide4 {
+	background: url(../img/carousel4_lg.jpg) top center no-repeat;
+}
+/* End of Carousel */
+
+.body_heading {
+	margin-top: 25px;
+	font-family: Nunito;
+	font-weight: bold;
+}
+.container>hr {
+	margin-top: -10px;
+	height: 2px;
+	background: #000;
+}
+.panel {
+	height: 300px;
+	width: 300px;
+	border: 1px solid #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+.category_name {
+	color: #000;
+	font-size: 20px;
+	margin-top: 0px;
+}
+.panel:hover {
+	box-shadow: 1px 1px 10px 2px #000 inset, -1px -1px 10px 2px #000 inset;
+}
+.panel img {
+	width: 220px;
+	height: 220px;
+}
+
+/*************************
+* =Body(furniture)
+*************************/
+#furniture {
+	margin-top: 101.2px;
+}
+.trend_7 {
+	height: 750px;
+	box-shadow: 1px 1px 0 0 #000, -1px -1px 0 0 #000;
+}
+.trend_7 img {
+	height: 748px;
+	width: 500px;
+}
+.trend_3 {
+	height: 250px;
+	box-shadow: 1px 1px 0 0 #000, -1px -1px 0 0 #000;
+}
+.trend_3 img {
+	height: 245px;
+}
+
+/* Products*/
+.products {
+	height: 270px;
+	margin-bottom: 20px;
+}
+.products img {
+	height: 220px;
+}
+.products span {
+	color: #000;
+}
+.products .pr_name {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #555;
+}
+.products .price {
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+a:hover .pr_name {
+	color: #aa601b;
+}
+
+/*************************
+* =Media Queries
+*************************/
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	#myCarousel #furniture{
+		margin-top: 186px;
+	}
+	#myCarousel .item {
+		height: 100px;
+	}
+	#slide1 {
+		background: url(../img/carousel1_lg.jpg) top center no-repeat;
+	}
+	#slide2 {
+		background: url(../img/carousel2_lg.jpg) top center no-repeat;
+	}
+	#slide3 {
+		background: url(../img/carousel3_lg.jpg) top center no-repeat;
+	}
+	#slide4 {
+		background: url(../img/carousel4_lg.jpg) top center no-repeat;
+	}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel #furniture{
+		margin-top: 154.8px;
+	}
+	#myCarousel .item {
+		height: 200px;
+	}
+	#slide1 {
+		background: url(../img/carousel1_lg.jpg) top center no-repeat;
+	}
+	#slide2 {
+		background: url(../img/carousel2_lg.jpg) top center no-repeat;
+	}
+	#slide3 {
+		background: url(../img/carousel3_lg.jpg) top center no-repeat;
+	}
+	#slide4 {
+		background: url(../img/carousel4_lg.jpg) top center no-repeat;
+	}
+}
+
+/* Portrait & landscape phone */
+@media (min-width: 1200px) {
+	#myCarousel #furniture{
+		margin-top: 101.2px;
+	}
+	#myCarousel .item {
+		height: 300px;
+	}
+	#slide1 {
+		background: url(../img/carousel1_lg.jpg) top center no-repeat;
+	}
+	#slide2 {
+		background: url(../img/carousel2_lg.jpg) top center no-repeat;
+	}
+	#slide3 {
+		background: url(../img/carousel3_lg.jpg) top center no-repeat;
+	}
+	#slide4 {
+		background: url(../img/carousel4_lg.jpg) top center no-repeat;
+	}
+}
+
+/*************************
+* =Footer
+*************************/
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background: #222;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #fff;
+	padding-top: 8px;
+}
+footer p {
+	margin-bottom: 5px;
+}
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+footer a:hover {
+	color: #aaa;
+}
